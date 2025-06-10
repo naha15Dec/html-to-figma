@@ -49,7 +49,7 @@ a {
 
 .heading-lv2 {
   color: #171100;
-  font-family: var(--primary-color);
+  font-family: var(--font-heading);
   font-weight: 700;
   font-size: 3.8rem;
   line-height: 1.26;
@@ -494,6 +494,7 @@ a {
 
 .features .body {
   display: flex;
+  justify-content: space-between;
 }
 
 .features .images {
@@ -503,7 +504,7 @@ a {
 
 .features .content {
   width: 41%;
-  margin-left: auto;
+  /* margin-left: auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -533,4 +534,24 @@ a {
   background-color: var(--primary-color);
   width: 137px;
   height: 50px;
+}
+
+/* ===================== features ======================== */
+.features-2 {
+  margin-top: 70px;
+  padding: 65px;
+}
+
+.features-2 .body {
+  flex-direction: row-reverse;
+}
+
+.features-2 .content {
+  width: 49%;
+}
+
+.features-2 .images img {
+  width: 470px;
+  height: 440px;
+  border-radius: 20px;
 }
